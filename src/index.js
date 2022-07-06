@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 
 // @desc Styling
 import './index.css';
-// esline-disable-next-line
+import './Assets/CSS/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // @desc Components/Pages/Jest

@@ -8,10 +8,15 @@ function Home() {
   return (
     <React.Fragment>
         <main className='container-fluid mt-3'>
-            <section className='container'>
-                <h1>Testing</h1>
-                <Coins />
-            </section>
+            <article className='container'>
+                <section className='d-flex justify-content-center align-items-center'>
+                    <h1>Chocolate Vending Machine</h1>
+                </section>
+                <section>
+                    <Coins />
+                </section>
+                
+            </article>
         </main>
     </React.Fragment>
   )

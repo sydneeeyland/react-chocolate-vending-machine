@@ -4,7 +4,7 @@ function Coins() {
   return (
     <React.Fragment>
       <main className='container-fluid'>
-        <section className='container d-flex gap-3'>
+        <section className='container d-flex justify-content-center align-items-center gap-3'>
           <button className='btn btn-primary'>10c</button>
           <button className='btn btn-primary'>20c</button>
           <button className='btn btn-primary'>50c</button>
