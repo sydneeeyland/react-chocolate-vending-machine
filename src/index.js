@@ -1,6 +1,11 @@
+// @desc Package
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// @desc Styling
 import './index.css';
+
+// @desc Components/Pages/Jest
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
