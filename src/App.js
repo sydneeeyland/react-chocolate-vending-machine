@@ -1,19 +1,24 @@
 // @desc Package
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // @desc Styling
-import './App.css';
+import "./App.css";
 
 // @desc Pages
-import Home from './Pages/Home';
+import Home from "./Pages/Products";
+
+// @desc Layout
+import Main from "./Layout/Main";
 
 function App() {
   return (
     <React.Fragment>
       <Router>
         <Routes>
-          <Route path='/' element={<Home />}></Route>
+          <Route element={<Main />}>
+            <Route path="/products" element={<Home />}></Route>
+          </Route>
         </Routes>
       </Router>
     </React.Fragment>

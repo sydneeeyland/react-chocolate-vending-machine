@@ -1,0 +1,31 @@
+{
+    "chocobar": [
+      {
+        "id": 1,
+        "title": "Caramel",
+        "description": "NOMO CARAMEL CHOCO BAR",
+        "categoryLogo": "https://www.pngkey.com/png/full/264-2649769_vegan-veganism.png",
+        "category": "Vegan",
+        "price": "2.50",
+        "image": "https://cdn.shopify.com/s/files/1/0360/8045/1720/products/NOMO_Caramel_Small_Bar_1_1500x_6663098e-5b0c-43ac-b328-b03f5e36a27e_1500x.png?v=1623748016"
+      },
+      {
+        "id": 2,
+        "title": "Hazelnut",
+        "description": "NOMO HAZELNUT CHOCO BAR",
+        "categoryLogo": "https://www.pngkey.com/png/full/264-2649769_vegan-veganism.png",
+        "category": "Vegan",
+        "price": "3.10",
+        "image": "https://cdn.shopify.com/s/files/1/0360/8045/1720/products/HazelnotSmooth_1024x1024.jpg?v=1642779434"
+      },
+      {
+        "id": 3,
+        "title": "Organic Raw",
+        "description": "CHOCO NOOT-ROZIJN CHOCO BAR",
+        "categoryLogo": "https://www.pngkey.com/png/full/264-2649769_vegan-veganism.png",
+        "category": "Vegan",
+        "price": "2.00",
+        "image": "https://cdn.webshopapp.com/shops/311854/files/401479019/1000x1000x2/raw-organic-food-chocobar-nut-raisin.jpg"
+      }
+    ]
+}
