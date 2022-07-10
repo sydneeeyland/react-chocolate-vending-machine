@@ -14,6 +14,7 @@ function CurrencyButtons({ CallBack }) {
             className="btn btn-success rounded-circle mx-4 py-2"
             value={x.value}
             onClick={(e) => CallBack(e.target.value)}
+            data-testid={"denomination-" + x.id}
           >
             {x.name}
           </button>

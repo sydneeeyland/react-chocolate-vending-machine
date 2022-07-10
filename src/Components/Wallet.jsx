@@ -24,7 +24,6 @@ function Wallet() {
     <React.Fragment>
       <section className="row col-xxl-12 px-4 py-4">
         <Instruction />
-
         <article className="row col-xxl-12">
           <div className="col-xxl-8 px-3 py-3">
             <div className="text-center">
