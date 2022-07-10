@@ -2,9 +2,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// @desc Styling
-import "./App.css";
-
 // @desc Pages
 import Products from "./Pages/Products";
 

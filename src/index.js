@@ -1,17 +1,16 @@
 // @desc Package
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 // @desc Styling
-import './index.css';
-import './Assets/CSS/style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Assets/CSS/style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // @desc Components/Pages/Jest
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
