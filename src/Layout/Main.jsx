@@ -6,13 +6,13 @@ import { Outlet } from 'react-router-dom'
 
 // @desc Components
 import Wizard from '../Components/Wizard';
-import Wallet from '../Overlay/Wallet';
+import Wallet from '../Components/Wallet';
 
 function Main() {
   return (
     <React.Fragment>
       <nav>
-        <article className="fixed-top bg-gray py-2">
+        <article className="bg-gray py-2">
           <div className="container-fluid">
             <div className="container">
               <Wizard />
@@ -22,12 +22,18 @@ function Main() {
       </nav>
 
       <main id="content" className="pt-5rem text-center">
-        <Outlet />
+        <section className="container-fluid">
+          <article className="container">
+            <Outlet />
+          </article>
+        </section>
       </main>
 
-      <footer className="fixed-bottom">
-        <Wallet />
-      </footer>
+      <section className="container-fluid bg-gray">
+        <article className="container">
+          <Wallet />
+        </article>
+      </section>
     </React.Fragment>
   );
 }

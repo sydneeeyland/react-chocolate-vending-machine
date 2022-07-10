@@ -6,18 +6,21 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 // @desc Pages
-import Home from "./Pages/Products";
+import Products from "./Pages/Products";
 
 // @desc Layout
 import Main from "./Layout/Main";
+import Dispense from "./Pages/Dispense";
 
 function App() {
   return (
     <React.Fragment>
       <Router>
         <Routes>
-          <Route element={<Main />}>
-            <Route path="/products" element={<Home />}></Route>
+          <Route path="/" element={<Main />}>
+            <Route path="/" element={<Products />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/dispense" element={<Dispense />} />
           </Route>
         </Routes>
       </Router>
