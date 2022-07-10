@@ -31,7 +31,7 @@ function Wallet() {
               <span className="fw-bold">Deposit coins/dollar</span>
             </div>
             <div className="text-center">
-              <CurrencyButtons testingdata={CurrentBalance} />
+              <CurrencyButtons CallBack={CurrentBalance} />
             </div>
           </div>
           <div className="col-xxl-4 px-3 py-3">

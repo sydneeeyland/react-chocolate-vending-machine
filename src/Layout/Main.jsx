@@ -5,13 +5,13 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 
 // @desc Components
-import Wizard from '../Components/Wizard';
+//import Wizard from '../Components/Wizard';
 import Wallet from '../Components/Wallet';
 
 function Main() {
   return (
     <React.Fragment>
-      <nav>
+      {/* <nav>
         <article className="bg-gray py-2">
           <div className="container-fluid">
             <div className="container">
@@ -19,7 +19,7 @@ function Main() {
             </div>
           </div>
         </article>
-      </nav>
+      </nav> */}
 
       <main id="content" className="pt-5rem text-center">
         <section className="container-fluid">

@@ -4,8 +4,7 @@ import React from 'react'
 // @desc Dummy data
 import Denomination from '../../Data/Denomination.json';
 
-function CurrencyButtons({testingdata}) {
-
+function CurrencyButtons({ CallBack }) {
   return (
     <React.Fragment>
       <section className="align-items-center pt-4">
@@ -14,7 +13,7 @@ function CurrencyButtons({testingdata}) {
             key={x.id}
             className="btn btn-success rounded-circle mx-4 py-2"
             value={x.value}
-            onClick={(e) => testingdata(e.target.value)}
+            onClick={(e) => CallBack(e.target.value)}
           >
             {x.name}
           </button>

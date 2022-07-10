@@ -25,7 +25,7 @@ function Instruction() {
         <img src={ChocolateBar} height="95" width="95" />
         <p className="pt-2 fw-bold">
           <span className="num-circle mx-2">3</span>
-          <span>Enjor your vegan chocolate bar before it melts.</span>
+          <span>Enjoy your vegan chocolate bar before it melts.</span>
         </p>
       </article>
     </React.Fragment>
